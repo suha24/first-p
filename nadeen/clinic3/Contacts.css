@@ -1,0 +1,31 @@
+body{
+    background:rgb(255, 255, 255);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.header{
+    background-color:#9b118f;
+    color: aliceblue;
+    padding:1em;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.content{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppis', sans-serif;
+
+}
+.contact{
+    position:relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    flex-direction:column;
+}
